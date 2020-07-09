@@ -1,0 +1,171 @@
+header{
+  padding: 2%;
+  
+  background-image: url("D:/Web d/Assignments/Assignment 2/Images/wheel.jpg");
+  background-color: #ff2200;
+  background-size: cover;
+  height:200px;
+}
+h1{
+  color:#ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  
+}
+h2{
+
+}
+nav{
+  
+  text-align:center;
+  font-size: 150%;
+  margin-bottom: 2px;
+  
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+  padding-left:75px;
+  padding-right: 75px;
+  text-align: center;
+  margin:9px;
+  margin-top:1px;
+  margin-bottom: 2px;
+  border-radius:10px;
+  background-color: #3ac53e57;
+  color: #000000;
+  transition: z-index 2s ;
+ 
+}
+nav a:hover
+{
+  z-index: 2;
+  border-radius: 20px;
+  background-color: #3ac53e;
+
+}
+ .active
+{
+ background:#ffffff57;
+ color: #0000ff;
+}
+.left
+{
+  display:inline-block;
+  width:25%;
+  margin-right:0.5%;
+  float:left;
+  
+  background-color: #29e4189a;
+
+ 
+}
+.right
+{
+  width:74.5%;
+  font-size:130%;
+  text-align:justify;
+  float:left;
+  display:inline-block;
+  
+
+}
+body{
+  padding:15px;
+  margin:2%;
+  
+}
+img
+{
+  display:block;
+  align-items: center;
+  border:solid 2px #000000;
+  padding:1%;
+  margin-left: 8%;
+   margin-right: 5%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+  width:80%;
+  transition: width 1s;
+}
+#img
+{
+  transition-timing-function: linear;
+}
+img:hover{
+  width :100%;
+  z-index:2;
+  position:sticky;
+}
+table
+{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+th{
+  border-radius: 5px 5px 0px 0px;
+  background-color: #12cc18b7 ;
+  border-bottom: thick;
+  height:1.25cm;
+}
+tr{
+  opacity: 0.8;
+  background-color:#12cc1859 ;
+}
+tr:hover{
+  opacity: 1;
+}
+td:nth-child(1)
+{
+  text-align: left;
+}
+td:nth-child(2)
+{
+  text-align: center;
+}
+td:nth-child(3)
+{
+  text-align: center;
+}
+th:nth-child(2)
+{
+  text-align: center;
+}
+th:nth-child(3)
+{
+  text-align: center;
+}
+td{
+  text-shadow: #000000;
+  margin: 2px;
+  padding:2px;
+  border:2px;
+  height:1cm;
+}
+/*
+table , th , td{
+  width:80%;
+  border-collapse: collapse;
+  
+}
+td{
+  height: 1cm;
+  width:50px;
+  background-color: #12cc1863;
+  opacity: 0.8;
+  text-align: center;
+ 
+}
+th{
+  background-color: #12cc18b7;
+  border-radius: 4px;
+  height:1cm;
+  width:80px;
+}
+
+td:hover{
+  opacity:1;
+}*/
