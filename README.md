@@ -1,2 +1,2 @@
 # webdev
-practice web page
+Web site created for practice. 
